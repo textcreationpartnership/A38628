@@ -1,0 +1,443 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>An Essay of the form and constitution of a particular Christian church according to the model of the apostolick age, and as it is describ'd in the writings of the New Testament.</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1700</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 46 KB of XML-encoded text transcribed from 25 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A38628</idno>
+            <idno type="STC">Wing E3286A</idno>
+            <idno type="STC">ESTC R36575</idno>
+            <idno type="EEBO-CITATION">15731955</idno>
+            <idno type="OCLC">ocm 15731955</idno>
+            <idno type="VID">104553</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A38628)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 104553)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1591:113)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>An Essay of the form and constitution of a particular Christian church according to the model of the apostolick age, and as it is describ'd in the writings of the New Testament.</title>
+               </titleStmt>
+               <editionStmt>
+                  <edition>The third edition.</edition>
+               </editionStmt>
+               <extent>48 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for John Marshall ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1700.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>"To the reader" signed: J.J.</note>
+                  <note>Advertisements: p. 6.</note>
+                  <note>Reproduction of original in the Huntington Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Catholic Church --  Controversial literature.</term>
+               <term>Protestantism --  Apologetic works.</term>
+               <term>Reformation.</term>
+               <term>Theology, Doctrinal.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-08</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-08</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-02</date>
+            <label>Geremy Carnes</label>Sampled and proofread</change>
+         <change>
+            <date>2013-02</date>
+            <label>Geremy Carnes</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:104553:1" rendition="simple:additions"/>
+            <p>AN ESSAY OF THE Form and Conſtitution OF A Particular Chriſtian CHURCH, According to the Model of the Apoſtolick Age, and as it is deſcrib'd in the Writings of the <hi>New Teſtament.</hi>
+            </p>
+            <q>God is in the Midſt of Her, <bibl>Pſal. 46.5.</bibl>
+            </q>
+            <p>The Third Edition.</p>
+            <p>
+               <hi>LONDON,</hi> Printed for <hi>John Marſhall,</hi> at the <hi>Bible</hi> in <hi>Grace-Church-Street.</hi> 1700.</p>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:104553:2"/>
+            <pb n="3" facs="tcp:104553:2"/>
+            <head>TO THE READER.</head>
+            <p>YO<g ref="char:V">Ʋ</g>R Candour and Attention are de<g ref="char:EOLhyphen"/>ſir'd in the read<g ref="char:EOLhyphen"/>ing the enſuing Pages, which were written for the Satisfaction of Friends, and made Publick ſome time ſince at their De<g ref="char:EOLhyphen"/>ſire,
+<pb n="4" facs="tcp:104553:3"/>without any Deſign of Reflecting upon the pre<g ref="char:EOLhyphen"/>ſent State and Conſtitution of Modern Churches: For the Author's <g ref="char:V">Ʋ</g>ndertaking was purely to give the World ſuch a Draught of a particular Chriſtian Church, as upon his beſt Enquiry, appear'd to be moſt conformable to the Model of the Apoſtolick Times, when the Purity of the Chriſtian Faith was yet untainted, and the Shining Examples of a Holy Reli<g ref="char:EOLhyphen"/>gious Life, render'd the Chriſtian Religion the moſt eligible Inſtitution in the World.</p>
+            <pb n="5" facs="tcp:104553:3"/>
+            <p>And the Publiſher is very much perſuaded, that if the Frame, Government, and Diſcipline of the Modern Societies of Chriſtians, were more agreeable to the Rules and Obſervations contain'd in this ſmall Diſcourſe, the Peace and Happineſs of the whole preſent Viſible Church, would be very much ſecur'd and promoted; which is earneſtly deſir'd, and the on<g ref="char:EOLhyphen"/>ly thing propos'd in the Pub<g ref="char:EOLhyphen"/>lication hereof by</p>
+            <closer>
+               <signed>J. J.</signed>
+            </closer>
+         </div>
+         <div type="publishers_advertisement">
+            <pb facs="tcp:104553:4"/>
+            <head>Books Sold by <hi>John Marſhall.</hi>
+            </head>
+            <p>
+               <hi>ENchiridion Medicum Theoretico-Practicum; ſive Tractatus de Morborum Theoria &amp; Praxi. In quo omnium Morborum Humano Generi officientium,</hi> Nomina, Naturae, Cau<g ref="char:EOLhyphen"/>ſae, Signa <hi>&amp;</hi> Prognoſtica, <hi>unà cum eorundem</hi> Curatione <hi>breviter &amp; perſpicuè delineantur. Cui ſubnectitur Appendix de Lue Venerea.</hi> O<g ref="char:EOLhyphen"/>perâ &amp; Studio <hi>Joſephi Jackſon,</hi> Med.</p>
+            <p>The Intereſt of the Engliſh Nation un<g ref="char:EOLhyphen"/>der the Happy Government of King <hi>Wil<g ref="char:EOLhyphen"/>liam</hi> III. once more aſſerted: In Anſwer to the Challenge of a <hi>Jacobite.</hi> Wherein is proved, That that Law which forbids taking up Arms againſt the King upon any Pretence whatſoever, is conſiſtent with the Late Revolution.</p>
+            <p>An Eſſay concerning a <hi>Vacuum:</hi> Where<g ref="char:EOLhyphen"/>in is endeavoured to be demonſtrated, that a <hi>Vacuum Interſperſum</hi> runs through the World, and is more or leſs in all Bodies. By a Lover of the Corpuſcular Phi<g ref="char:EOLhyphen"/>loſophy.</p>
+            <p>A Diſcourſe concerning God's Fore<g ref="char:EOLhyphen"/>knowledge, and Man's Free Agency: Wherein their ſeeming Oppoſition is Re<g ref="char:EOLhyphen"/>conciled, and real Conſiſtency Demonſtra<g ref="char:EOLhyphen"/>ted from the Holy Scriptures, and Argu<g ref="char:EOLhyphen"/>ments thence deduced.</p>
+            <p>A Vindication of the Primitive and Apo<g ref="char:EOLhyphen"/>ſtolick Manner of Baptizing by Immerſion, with Remarks upon a Second Friendly Epiſtle to <hi>Geo. Keith</hi> from one who Stiles himſelf <hi>Trepidantium Malleus,</hi> alias, <hi>Sam. 01 Young.</hi>
+            </p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb n="7" facs="tcp:104553:4"/>
+            <head>AN ESSAY OF THE Form and Conſtitution Of a Particular Chriſtian CHURCH.</head>
+            <p>A Man may be a Member of the Viſible Church, and no Member of the Ca<g ref="char:EOLhyphen"/>tholick Church, <hi>John</hi> 17.12. <hi>Gen.</hi> 4.11, 1. <hi>Heb.</hi> 12.17. 2 <hi>Sam.</hi> 7.15.</p>
+            <p>A Man may be a Member of the Catholick Church, and no Member
+<pb n="8" facs="tcp:104553:5"/>of the Viſible Church, 1 <hi>Kings</hi> 14.13. <hi>Rev.</hi> 18.4. <hi>Rom.</hi> 11.4. 1 <hi>Kings</hi> 19.18.</p>
+            <p>The Catholick Church is the Company of the Elect, <hi>John</hi> 17.20. and it is Inviſible, <hi>Col.</hi> 1.20.</p>
+            <p>The Viſible Church is a Society of Saints in Viſible Communion, <hi>Matth.</hi> 18.12. <hi>Act.</hi> 2.41, 42, 46. and 1.15. and 19.7. 1 <hi>Cor.</hi> 1.2. <hi>Phil.</hi> 1.2. all which are to be ac<g ref="char:EOLhyphen"/>counted Faithful and Elect, <hi>Eph.</hi> 1.2, 4, 5, 7, 11, 13, 14. till they by obſtinacy in Sin and Apoſtacy declare the contrary, 1 <hi>John</hi> 2.19. 2 <hi>Tim.</hi> 4.10. and 1 <hi>Tim.</hi> 1.19, 20. 2 <hi>Theſ.</hi> 3.14, 15. 2 <hi>Tim.</hi> 2.17, 18, 21.</p>
+            <p>It is one thing to be a Saint, a<g ref="char:EOLhyphen"/>nother thing to be of the Viſible Communion of Saints, 1 <hi>Kings</hi> 14.13. compared with 2 <hi>Chron.</hi> 13.8, 12.</p>
+            <p>The Communion of Saints, is ei<g ref="char:EOLhyphen"/>ther Inviſible or Viſible, <hi>Eph.</hi> 3.17. <hi>Matth.</hi> 18.10. <hi>Heb.</hi> 1.14. 1 <hi>Cor.</hi> 3.13. — 9.13.</p>
+            <pb n="9" facs="tcp:104553:5"/>
+            <p>The Inviſible Communion is with Chriſt and the Elect, 1 <hi>Cor.</hi> 15.28. <hi>Eph.</hi> 3.17. 1 <hi>Cor.</hi> 1.13.</p>
+            <p>Inviſible Communion with Chriſt, is by the Spirit and Faith, <hi>Eph.</hi> 3.17. and 4.4. and 2.22.</p>
+            <p>Inviſible Communion with the the Elect, is with Men and Angels, <hi>Heb.</hi> 1.14. 1 <hi>Cor.</hi> 13.13.</p>
+            <p>Men Elect, are Dead and Living: Elect living, are Uncalled and Cal<g ref="char:EOLhyphen"/>led.</p>
+            <p>Communion with the Elect li<g ref="char:EOLhyphen"/>ving, is Prayer proceeding from love, <hi>John</hi> 17.20.</p>
+            <p>For them that are Uncalled, that they may be Called, <hi>Rom.</hi> 10.1.</p>
+            <p>For them that are Called, that they may be Confirmed, <hi>Col.</hi> 1.9, 12.</p>
+            <p>Communion with the Elect An<g ref="char:EOLhyphen"/>gels, is the help of their Miniſtry, <hi>Matth.</hi> 18.10. <hi>Heb.</hi> 1.14. <hi>Gen.</hi> 28.12. and 32.1, 2. <hi>Pſal.</hi> 34.7. Reverence of them, 1 <hi>Cor.</hi> 11.10. and love unto them, 1 <hi>Cor.</hi> 13.13.</p>
+            <pb n="10" facs="tcp:104553:6"/>
+            <p>A Viſible Communion of Saints, is of two, three, or more Saints joined together by Covenant with God and themſelves, freely to uſe all the holy things of God, accord<g ref="char:EOLhyphen"/>ing to the Word, for their mutual Edification, and God's Glory, <hi>Matth.</hi> 18.20. <hi>Deut.</hi> 29.12. <hi>&amp;c. Pſal.</hi> 147.19. and 149.6, 9. <hi>Rev.</hi> 1.16.</p>
+            <p>This Viſible Communion of Saints, is in a Viſible Church, <hi>Matth.</hi> 18.20. <hi>Act.</hi> 1.15. and 2.1, 41, 42, 46.</p>
+            <p>The Viſible Church is the only Religious Society that God hath ordained for Men on Earth, <hi>John</hi> 14.6. <hi>Matth.</hi> 18.20. and 13.14. 2 <hi>Chron.</hi> 13.8, 12. <hi>Act.</hi> 4.12. <hi>Rev.</hi> 18.4. 2 <hi>Cor.</hi> 6.16, 18.</p>
+            <p>Religious Societies, ſuch as Ab<g ref="char:EOLhyphen"/>beys, Monaſteries, Nunneries, and the like, are unſcriptural, and not of Chriſt's Inſtitution.</p>
+            <p>But the Viſible Church is Chriſt's Inſtitution, and a Means to Worſhip God in, <hi>Eph.</hi> 4.6.—6. <hi>Mark</hi> 13.34. 2 <hi>Chron.</hi> 13.10, 11. <hi>Heb.</hi> 3.6.
+<pb n="11" facs="tcp:104553:6"/>compared with <hi>Heb.</hi> 8.5. and 3.2,—6.</p>
+            <p>No Religious Communion to be had, but with Members of a Viſible Church, <hi>Matth.</hi> 18.17, 20. 1 <hi>Cor.</hi> 5.12. <hi>Act.</hi> 4.11, 12. 2 <hi>Cor.</hi> 6.16, 18. <hi>Rev.</hi> 18.4.</p>
+            <p>Whatſoever Company or Com<g ref="char:EOLhyphen"/>munion of Men, do Worſhip God, being not of the Communion of a Viſible Church, ſin, 2 <hi>Chron.</hi> 13.9, 10. <hi>Matth.</hi> 15.9. 1 <hi>Cor.</hi> 5.12, 13.</p>
+            <p>The true Viſible Church is the narrow way that leadeth to Life, which few find, <hi>Joh.</hi> 14.6. <hi>Matth.</hi> 7.14.</p>
+            <p>Other Religious Communions are the broad way that leadeth to Deſtruction, which may find, <hi>Matth.</hi> 7.13. <hi>Acts</hi> 4.12.</p>
+            <p>God's Word doth abſolutely deſcribe unto us the only true Form of a true Viſible Church, <hi>Mark</hi> 13.34. 1 <hi>Cor.</hi> 12.5. <hi>Heb.</hi> 8.5. and 3.2, 6. <hi>Rev.</hi> 22.18, 19. 2 <hi>Tim.</hi> 3.16, 17. <hi>Rom.</hi> 14.23. <hi>Heb.</hi> 11.6.</p>
+            <pb n="12" facs="tcp:104553:7"/>
+            <p>There is one only true Form of a Viſible Church, <hi>Joh.</hi> 14.6. <hi>Eph.</hi> 4.4, 5. 1 <hi>Cor.</hi> 1.10, 13. <hi>Joh.</hi> 17.17.</p>
+            <p>Forms of Viſible Churches, or Religious Communions to worſhip God in or by, deviſed by Men, are intellectual Idols, <hi>Exod.</hi> 20.4, 5. <hi>Matth.</hi> 15.9, 2. <hi>Chron.</hi> 17.8, 12. 1 <hi>Kings</hi> 12.33.</p>
+            <p>Viſible Churches or Religious Communions, conſtituted accord<g ref="char:EOLhyphen"/>ing to the Invention of Men, are real Idols; and to join to them, and to worſhip God in them, is to join to Idols, or to worſhip God in or by Idols, by conſequence from the former.</p>
+            <p>Viſible Churches or Religious Communions, are either true or falſe, <hi>Joh.</hi> 14.6. <hi>Pſal.</hi> 119.23. 2 <hi>Chron.</hi> 1.8, 12. <hi>Eph.</hi> 4.4, 5, 6.</p>
+            <p>The Viſible Churches are ſuch as have the true Eſſential Cauſes and Properties, which God's Word aſcribeth to the true Viſible Church from the Definition. Falſe Churches
+<pb n="13" facs="tcp:104553:7"/>are the contrary to the true by Proportion.</p>
+            <p>To a true Viſible Church are re<g ref="char:EOLhyphen"/>quiſite three things: <hi>Firſt,</hi> True Matter. <hi>2dly,</hi> True Form. <hi>3dly,</hi> True Properties.</p>
+            <p>The true Matter of a true Vi<g ref="char:EOLhyphen"/>ſible Church, are Saints, <hi>Exod.</hi> 28.9, 10, 15, 21. compared with <hi>Rev.</hi> 21.14, 21. and 1 <hi>Kings</hi> 5.17. compared with 1 <hi>Pet.</hi> 2.5. <hi>Levit.</hi> 11. to 13, 43, 44. compared with <hi>Rev.</hi> 18.2. 1 <hi>Pet.</hi> 2.9. <hi>Deut.</hi> 14. 2. <hi>Rom.</hi> 1.7. 1 <hi>Cor.</hi> 1.2. <hi>Eph.</hi> 1.1. <hi>Phil.</hi> 1.1. 1 <hi>Pet.</hi> 1.2. <hi>Heb.</hi> 3.1.</p>
+            <p>Saints are Men ſeparated from all known Sin, practiſing the whole Will of God known unto them, <hi>Col.</hi> 1.2. and 2.11, 13. <hi>Rom.</hi> 1.7. and 6.2, 12, 22. growing in Grace and Knowledge, 2 <hi>Pet.</hi> 3.18. con<g ref="char:EOLhyphen"/>tinuing to the end, 1 <hi>John</hi> 2.19.</p>
+            <p>The true Form of a true Viſible Church, is partly inward, partly outward.</p>
+            <pb n="14" facs="tcp:104553:8"/>
+            <p>The inward part of the Form conſiſteth in Three things: <hi>Firſt,</hi> The <hi>Spirit. 2dly, Faith. 3dly, Love.</hi>
+            </p>
+            <p>The <hi>Spirit</hi> is the Soul animating the whole Body, <hi>Eph.</hi> 4.4. 1 <hi>Cor.</hi> 12.4, 11, 13.7.10. 1 <hi>Cor.</hi> 6.17.</p>
+            <p>
+               <hi>Faith</hi> uniteth the Members of the Body to the Head Chriſt, <hi>Eph.</hi> 3.1. and 4.13, 15. and 5.30, 33. 1 <hi>Cor.</hi> 6.17.</p>
+            <p>
+               <hi>Love</hi> uniteth the Members of the Body each to other, <hi>Eph.</hi> 2.20, 21. and 4.16, 23. <hi>Col.</hi> 3.14, 15.</p>
+            <p>The outward part of the true Form of the true Viſible Church, is a Vow, Promiſe, Oath or Co<g ref="char:EOLhyphen"/>venant, betwixt God and the Saints, by proportion from the inward Form. See alſo <hi>Gen.</hi> 17.1, 2. and 15.18. <hi>Deut.</hi> 29.1, 9, 13. 1 <hi>Chron.</hi> 29.10. and 34.30, 32. <hi>Pſal.</hi> 119.106. <hi>Nehem.</hi> 9.38. and 10.29. 1 <hi>Cor.</hi> 12.25, 26. <hi>Rom.</hi> 12.5, 15, 1<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>. <hi>Matth.</hi> 18.15, 17.</p>
+            <p>This Covenant hath Two Parts: 1. Reſpecting God and the Faithful. 2. Reſpecting the Faithful amongſt themſelves.</p>
+            <pb n="15" facs="tcp:104553:8"/>
+            <p n="1">1. That part of the Covenant which reſpects God, conſiſts in their Solemn Perſonal Engagement and Profeſſion to be his in Faith, and Holy entire Obedience, <hi>Eſa.</hi> 55.3.56. 1. <hi>Ezek.</hi> 16.60. 2 <hi>Chron.</hi> 7.18.</p>
+            <p n="2">2. That which regards the Faith<g ref="char:EOLhyphen"/>ful, is a Solemn Declaration of their Submiſſion to the ſame Lord, Faith and Baptiſm, under the ſame Church-order, <hi>Joſh.</hi> 22.2-5. <hi>Rom.</hi> 1.5.6.16, 17, 18, 19. <hi>Eph.</hi> 5.24.</p>
+            <p>The Priviledges the Saints enjoy by thus entering into Covenant are Twofold, 1. Communion in all holy Things of God. 2. The Power of our Lord Jeſus Chriſt, 1 <hi>Joh.</hi> 1. and 3. 1 <hi>Cor.</hi> 10.16. and 5.4, 5. <hi>Mat.</hi> 18.20. <hi>Eſay</hi> 55.33. <hi>Act.</hi> 15.34.</p>
+            <p>The holy Things of God are, 1. Chriſt. 2. Benefits by Chriſt. <hi>Rom.</hi> 8.32.</p>
+            <p>The true Church hath Title to, Poſ<g ref="char:EOLhyphen"/>ſeſſion, and Uſe of Chriſt, <hi>Eſay</hi> 9.6. <hi>Song</hi> 2.16. <hi>Mat.</hi> 18.20. 1 <hi>Cor.</hi> 3.21, 23. <hi>Eph.</hi> 5.30.</p>
+            <p>The Benefits which the true
+<pb n="16" facs="tcp:104553:9"/>Church hath by Chriſt, are the Means of Salvation: And the Privi<g ref="char:EOLhyphen"/>ledges the Members enjoy in the Church is receiving of Alms, 1 <hi>Tim.</hi> 14.8. 2 <hi>Pet.</hi> 1.3.</p>
+            <p>The Means of S<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>lvation are the Word, Sacraments, Prayers, Cen<g ref="char:EOLhyphen"/>ſures, and the Ordinances of Chriſt, for the Diſpenſing of them all, <hi>Rom.</hi> 3.2. and 4.11. <hi>Luk.</hi> 19.46. <hi>Mat.</hi> 18.15, 17. <hi>Acts</hi> 2.42. 1 <hi>Cor.</hi> 11.23, 26. <hi>Mat.</hi> 28.19. <hi>Pſal.</hi> 149.6, 9.</p>
+            <p>Alms are the Works of Mercy yielded to the Saints in Diſtreſs, <hi>Acts</hi> 2.44, 45. and 5.4. <hi>Mat.</hi> 25.34, 40. <hi>Heb.</hi> 13.1, 3. 1 <hi>Tim.</hi> 3.2. and 5.10.</p>
+            <p>The Power of the Lord Jeſus Chriſt given to the Church hath three Parts.</p>
+            <p>
+               <hi>Viz.</hi> Power to, 1. Receive in, <hi>Joh.</hi> 10.3. <hi>Act.</hi> 9.26, 27. and 18.27. and 6.5. <hi>2dly.</hi> Preſerve and keep within, 1 <hi>Joh.</hi> 2.19. 1 <hi>Pet.</hi> 1.5. <hi>3dly.</hi> To caſt out, 1 <hi>Cor.</hi> 5.13.</p>
+            <p>The true Viſible Church hath Power to receive in, 1. Members in<g ref="char:EOLhyphen"/>to
+<pb n="17" facs="tcp:104553:9"/>Communion, <hi>Act.</hi> 2.41. and 18.27. and 9.26, 27. And, <hi>2dly.</hi> Of<g ref="char:EOLhyphen"/>ficers into Office, <hi>Act.</hi> 6.5. and 14.23.</p>
+            <p>The Way or Door whereby both Members and Officers enter in, is Chriſt; that is, the Way taught by Chriſt in his Word, <hi>Joh.</hi> 14.6. and 17.17. <hi>Mark</hi> 13.34, 37.</p>
+            <p>The Qualification of Members to be admitted in the Church, is Faith teſtified by Obedience, <hi>Acts</hi> 8.36, 37. <hi>Mat.</hi> 3.6. <hi>Luke</hi> 7.29, 30.</p>
+            <p>Faith is the Knowledge of the Doctrine of Salvation by Chriſt, 1 <hi>Cor.</hi> 12.9. <hi>Gal.</hi> 3.2.</p>
+            <p>Obedience is a godly, righteous and ſober Life, <hi>Tit.</hi> 2.11, 12. <hi>Rom.</hi> 1.5.</p>
+            <p>Members thus received into Communion are of two ſorts. <hi>1ſt.</hi> Prophets, <hi>2dly.</hi> Private Perſons. 1 <hi>Cor.</hi> 14.24. 1 <hi>Sam.</hi> 19.24, 23.</p>
+            <p>Prophets or Teachers are Men endued with Gifts proper for Edification, Exhortation and Conſo<g ref="char:EOLhyphen"/>lation, 1 <hi>Cor.</hi> 14.3. <hi>Acts</hi> 13.1. <hi>Rom.</hi> 12.6.</p>
+            <pb n="18" facs="tcp:104553:10"/>
+            <p>Theſe Perſons muſt firſt be ap<g ref="char:EOLhyphen"/>pointed to this Exerciſe by the Church, 1 <hi>Cor.</hi> 24.49. <hi>Acts.</hi> 13.1.</p>
+            <p>The Prophets or Teachers Care muſt be to Teach according to the Proportion or Rule of Faith, <hi>Rom.</hi> 12.6. 1 <hi>Cor.</hi> 14.26.</p>
+            <p>Let the Prophets ſpeak two or three, and the reſt judge, 1 <hi>Cor.</hi> 14.29.</p>
+            <p>If any thing be revealed to him that ſitteth by, let the firſt hold his Peace, 1 <hi>Cor.</hi> 14.30, 40.</p>
+            <p>All that have Gifts may be ad<g ref="char:EOLhyphen"/>mitted to Prophecy, 1 <hi>Cor.</hi> 14.31.</p>
+            <p>Private Perſons are, <hi>1ſt.</hi> Men. <hi>2dly.</hi> Women, Believers.</p>
+            <p>Private Men preſent at the exer<g ref="char:EOLhyphen"/>ciſe of Prophecy, may modeſtly propound their Doubts, which are to be reſolved by the Prophets: <hi>Luk.</hi> 2.46, 47. 1 <hi>Sam.</hi> 19.20, 23. 1 <hi>Cor.</hi> 4.30.</p>
+            <p>Women are not permitted to ſpeak in the Church in Time of Prophecy, 1 <hi>Cor.</hi> 14.34. 1 <hi>Tim.</hi> 2.12. <hi>Revel.</hi> 2.20.</p>
+            <p>If Women doubt of any thing
+<pb n="19" facs="tcp:104553:10"/>delivered in Time of Prophecy, and are willing to learn, they muſt ask them that can teach them in Private, as their Husbands at home, if they be Faithful, or ſome other of the Church, 1 <hi>Cor.</hi> 14.35. 1 <hi>Tim.</hi> 2.12.</p>
+            <p>To hear this exerciſe of Prophecy may be admitted Unbelievers, or they that are without, 1. <hi>Cor.</hi> 14.24. <hi>Acts</hi> 2.6, 13.</p>
+            <p>The Exerciſe of Prophecy, or the Preaching of the Word by them that are ſent, is that ordinary Means God hath appointed to con<g ref="char:EOLhyphen"/>vert Men, 1 <hi>Cor.</hi> 14.24, 25. <hi>Rom.</hi> 10.14, 14.</p>
+            <p>They are ſent by God to preach whom the Church ſendeth, <hi>Acts</hi> 13.2, 4. and 8.14, 15.</p>
+            <p>If any Man be converted by o<g ref="char:EOLhyphen"/>ther Means, it is not Ordinary, <hi>Rom.</hi> 10.14, 15. <hi>John</hi> 4.39, 41. <hi>Acts</hi> 9.5, 6.</p>
+            <p>Therefore they that are conver<g ref="char:EOLhyphen"/>ted in falſe Churches, are not con<g ref="char:EOLhyphen"/>verted by ordinary Means, 1 <hi>King.</hi> 14.13. and 19.18. <hi>Rom.</hi> 11.3, 4. <hi>Rev.</hi> 18.4.</p>
+            <pb n="20" facs="tcp:104553:11"/>
+            <p>The Way of receiving Officers into Office is, 1. Election. <hi>2dly.</hi> Ap<g ref="char:EOLhyphen"/>probation. <hi>3dly.</hi> Ordination: Which muſt be performed with Faſting and Prayer, <hi>Acts</hi> 6.5. and 14.23. 1 <hi>Tim.</hi> 3.10. and 5.22. and 4.14. <hi>Tit.</hi> 1.5. <hi>Acts</hi> 13.3.</p>
+            <p>The Perſon to be admitted into Office muſt firſt be a Member of that Viſible Church whence he hath his Calling, <hi>Acts</hi> 1.21, 22. and 6.3.5. and 18.27, 28. 1 <hi>Cor.</hi> 11.12. and 3.6. 1 <hi>Tim.</hi> 3.2, 3-10.</p>
+            <p>Election is by moſt Voices of the Members of the Church in full Com<g ref="char:EOLhyphen"/>munion, <hi>Acts</hi> 6.5. and 14.23.</p>
+            <p>
+               <hi>Query,</hi> Whether Women, Ser<g ref="char:EOLhyphen"/>vants and Children, admitted into full Commonion, yet under Age, may not give Voice in Elections, Excommunications, and other pub<g ref="char:EOLhyphen"/>lick Affairs of the Church? 1 <hi>Pet.</hi> 3.7. <hi>Epheſ.</hi> 4.4. 1 <hi>Tim.</hi> 5.9, 10. <hi>Numb.</hi> 30.5— 10, 16. 1 <hi>Cor.</hi> 14.34. <hi>Gen.</hi> 3.16. 1 <hi>Cor.</hi> 11.3, 10. <hi>Gen.</hi> 18.19. <hi>Joſh.</hi> 24.15.</p>
+            <p>Approbation is the examining
+<pb n="21" facs="tcp:104553:11"/>and finding the Officer-elect, to be according to the Rules of his Office, 1 <hi>Tim.</hi> 3.10. and 5.9, 10. <hi>Acts</hi> 6.3.</p>
+            <p>In Approbation every Member is bound to object what he can, eſpecially they that denied their Voices, <hi>Acts</hi> 15.37, 38. 1 <hi>Tim.</hi> 3.2, 3, 10. <hi>Acts</hi> 6.3.</p>
+            <p>Approbation muſt be after Electi<g ref="char:EOLhyphen"/>on, leſt without Cauſe the Infirmi<g ref="char:EOLhyphen"/>ties of the Brethren be diſcovered: For there are Faults, diſabling Men to Offices, which do not diſable them to be Members of the Church, <hi>Ezek.</hi> 44.9, 15. <hi>Acts</hi> 15.37, 38. <hi>Mat.</hi> 18.21, 22. compared with <hi>Prov.</hi> 10.12. 1 <hi>Pet.</hi> 4.8.</p>
+            <p>It the things objected bear Weight againſt the Officer-elect, the Election is void, and they may proceed to the Choice of another, 1 <hi>Tim.</hi> 3.4.5. and 5.11. <hi>Acts</hi> 15.37, 38. <hi>Ezek.</hi> 44.10. 2 <hi>King.</hi> 22.9.</p>
+            <p>Defects or Faults that caſt Men out of Office, are ſufficient to hinder Men from entring into Office: By Proportion.</p>
+            <pb n="22" facs="tcp:104553:12"/>
+            <p>If the things objected be Frive<g ref="char:EOLhyphen"/>lous the Election is approved, 1 <hi>Tim.</hi> 3.10. and they that diſſented are to conſent to the reſt, that ſo the whole Church may agree in one Perſon, 1 <hi>Cor.</hi> 1.10. <hi>Eph.</hi> 4.3. compared with <hi>Acts</hi> 1.26.</p>
+            <p>If the Parties objecting ſtill diſ<g ref="char:EOLhyphen"/>ſent without an approved Reaſon, they are to be reformed by Cen<g ref="char:EOLhyphen"/>ſure, 1 <hi>Cor.</hi> 11.17, 18. <hi>Mat.</hi> 18.15, 17.</p>
+            <p>Ordination is the Dedication of the Officer thus approved, to his Office, <hi>Exod.</hi> 29.44. and 40.12, 16. <hi>Numb.</hi> 8.6, 15. <hi>Heb.</hi> 5.4, 5. <hi>Mat.</hi> 3.15, 17. <hi>Acts</hi> 13.3, 4. 1 <hi>Tim.</hi> 4.14. <hi>Heb.</hi> 6.2. Ordina<g ref="char:EOLhyphen"/>tion hath three parts.</p>
+            <p>The <hi>firſt</hi> is the Power which the Church committeth to the Officer approved: To adminiſter according to his Office, <hi>John</hi> 20.21, 23. <hi>Mat.</hi> 18.15, 20. compared with <hi>Exod.</hi> 29.1, 38. <hi>Numb.</hi> 8.10, 11. <hi>Acts</hi> 6.3, 5. and 14.23. and 20.28. 1 <hi>Tim.</hi> 4.14. 2 <hi>Tim.</hi> 1.6, 14.</p>
+            <pb n="23" facs="tcp:104553:12"/>
+            <p>The <hi>ſecond</hi> is Prayer made by the whole Church, for the Officer inveſted with this Power, that he may faithfully adminiſter, <hi>Acts</hi> 6.6. and 13.3. and 14.23. 1 <hi>Cor.</hi> 4.2.</p>
+            <p>The <hi>third</hi> is a Charge given to the Officer thus admitted to look unto his Office in all the parts thereof, <hi>Mat.</hi> 28.18, 19. 1 <hi>Tim.</hi> 5.21. 1 <hi>Pet.</hi> 5.1, 2. 1 <hi>Tim.</hi> 6.13, 14. compared with <hi>Deut.</hi> 1.16.</p>
+            <p>The Ceremony uſed by the Apo<g ref="char:EOLhyphen"/>ſtles in Ordination is Impoſition of Hands: Which Ceremony firſt of all was uſed in the Old Teſta<g ref="char:EOLhyphen"/>ment, <hi>Num.</hi> 8.10. then in the New: By Chriſt in praying for Children, <hi>Mark</hi> 10.16. by God the Father in ordaining Chriſt to his Office of Mediator, <hi>Luke</hi> 3.21, 22. by Chriſt in ordaining the Apoſtles, <hi>Acts</hi> 2.3, 4. and 1.4, 8. by the A<g ref="char:EOLhyphen"/>poſtles in giving the Holy Ghoſt, <hi>Acts</hi> 8.15, 17. in ordaining E<g ref="char:EOLhyphen"/>vangeliſts, 2 <hi>Tim.</hi> 1.6. and in or<g ref="char:EOLhyphen"/>daining ordinary Miniſters, <hi>Acts</hi> 6.6.
+<pb n="24" facs="tcp:104553:13"/>and 14.23. by the Elderſhip or Church in ordaining Officers, <hi>Acts</hi> 13.3. 1 <hi>Tim.</hi> 4.4. by the Evange<g ref="char:EOLhyphen"/>liſts in ordaining Officers, 1 <hi>Tim.</hi> 5.22. <hi>Tit.</hi> 1.5. and ſo may law<g ref="char:EOLhyphen"/>fully be retained and uſed in the Church ſtill, <hi>Heb.</hi> 6.2.</p>
+            <p>The Uſe of Impoſition of Hands, is twofold.</p>
+            <p>Firſt, To point out the Officer in time of Prayer made for him; as if it ſhould be ſaid, This is the Man, by Proportion from 1 <hi>Sam.</hi> 10.24. <hi>Mat.</hi> 3.17.</p>
+            <p>Secondly, To ſignifie and to aſſure the Officer to be ordained, that the Lord by the Church giveth him Power to adminiſter, <hi>Acts</hi> 13.3, 4. and 20.28. <hi>John</hi> 20.21.</p>
+            <p>Ordination, and ſo Impoſition of Hands, appertaineth to the whole Church, as doth Election and Ap<g ref="char:EOLhyphen"/>probation, <hi>Acts</hi> 13.3. <hi>Num.</hi> 8.9, 10. yet for order ſake the fitteſt Members lay on Hands, and perform all other Particulars of Ordination for and in the Name of whole
+<pb n="25" facs="tcp:104553:13"/>Church, 1 <hi>Cor.</hi> 14.40. compared with <hi>Numb.</hi> 8.9, 10. and <hi>Acts</hi> 13.3. and 1 <hi>Tim.</hi> 4.14. and by pro<g ref="char:EOLhyphen"/>portion from <hi>Lev.</hi> 4.15.</p>
+            <p>The fitteſt Perſons are Elders when the Church hath them, 1 <hi>Tim.</hi> 4.14. when the Church wanteth Elders, Men of beſt Gifts appoin<g ref="char:EOLhyphen"/>ted by the Church, <hi>Numb.</hi> 8.9, 10.</p>
+            <p>Thus after the Apoſtacy of Anti<g ref="char:EOLhyphen"/>chriſt ariſeth a true Miniſtry in the Church, <hi>Rev.</hi> 18.4.</p>
+            <p>The Officers of a true Viſible Church thus admitted, are then to adminiſter faithfully, 1 <hi>Tim.</hi> 3.10. 1 <hi>Cor.</hi> 4.2.</p>
+            <p>The Officers of the true Viſible Church, are all abſolutely deſcribed in the Word of God, <hi>Heb.</hi> 3.2, 5. and 8.5. <hi>Rom.</hi> 12.7, 8 <hi>Mark</hi> 13.34.</p>
+            <p>Theſe Officers are of two ſorts: <hi>1ſt,</hi> Biſhops. <hi>2dly,</hi> Deacons, <hi>Phil.</hi> 1.1.</p>
+            <p>The Biſhops are alſo called Elders or Presbyters, <hi>Acts</hi> 20.17, 28. 1 <hi>Pet.</hi> 5.1.</p>
+            <pb n="26" facs="tcp:104553:14"/>
+            <p>The Biſhops or Elders jointly to<g ref="char:EOLhyphen"/>gether are called the Elderſhip or Presbytery, 1 <hi>Tim.</hi> 4.14. and 5.17. compared.</p>
+            <p>The Elderſhip conſiſteth of three ſorts of Perſons or Officers: <hi>Viz.</hi> the Paſtor, Teacher, and Gover<g ref="char:EOLhyphen"/>nor, 1 <hi>Tim.</hi> 4.14. and 5.17.</p>
+            <p>All the Elders or Biſhops muſt be apt to teach, 1 <hi>Tim.</hi> 3.2. <hi>Tit.</hi> 1.9.</p>
+            <p>The Paſtor is a Biſhop excelling in the Word of Wiſdom or Exhor<g ref="char:EOLhyphen"/>tation, <hi>Rom.</hi> 12.8. 1 <hi>Cor.</hi> 12.8. he is called the Angel of the Church, <hi>Rev.</hi> 2. and 3.</p>
+            <p>The Teacher is a Biſhop excel<g ref="char:EOLhyphen"/>ling in the Word of Knowledge or Doctrine, <hi>Rom.</hi> 12.7. 1 <hi>Cor.</hi> 12.8.</p>
+            <p>The Governor is a Biſhop excel<g ref="char:EOLhyphen"/>ling in the quality of Wiſe Go<g ref="char:EOLhyphen"/>vernment, 1 <hi>Tim.</hi> 5.17. <hi>Rom.</hi> 12.8.</p>
+            <p>The Paſtor and Teacher have al<g ref="char:EOLhyphen"/>ſo Power to adminiſter the Sacra<g ref="char:EOLhyphen"/>ments, <hi>Mat.</hi> 28.19. <hi>Epheſ.</hi> 4.12. 1 <hi>Cor.</hi> 11.23.</p>
+            <p>All the Biſhops deal by Office in
+<pb n="27" facs="tcp:104553:14"/>the Government of the Church, 1 <hi>Tim.</hi> 5.17. and are converſant about the Soul and Spiritual Part, <hi>Joh.</hi> 18.36. 2 <hi>Cor.</hi> 10.3.</p>
+            <p>The Deacons are Officers em<g ref="char:EOLhyphen"/>ploy'd about the Works of Mercy reſpecting the Body or outward Man, <hi>Acts</hi> 6.2.</p>
+            <p>The Deacons are, 1ſt, Men. Or, 2. Women Deacons or Wi<g ref="char:EOLhyphen"/>dows, <hi>Acts</hi> 6.2. <hi>Rom.</hi> 16.1.</p>
+            <p>Men Deacons ought to Collect and Diſtribute with Integrity the Churches Treaſure, according to the Churches Neceſſities, and the Saints Occaſions, <hi>Rom.</hi> 12.8. 2 <hi>Cor.</hi> 8.2, 8. 1 <hi>Cor.</hi> 16.2, 3.</p>
+            <p>The Churches Treaſure is Silver, Gold, or Money worth, freely gi<g ref="char:EOLhyphen"/>ven by the Members of the Viſible Church for the Common Good, <hi>Lev.</hi> 27. <hi>toto.</hi> 2 <hi>Kings</hi> 12.14-16. <hi>Luke</hi> 21.4. <hi>Acts</hi> 4.34, 35. 2 <hi>Cor.</hi> 8.2-8. and 9.7.</p>
+            <p>The Churches Treaſure is holy, <hi>Mat.</hi> 27.6. <hi>Luke</hi> 12.4.</p>
+            <pb n="28" facs="tcp:104553:15"/>
+            <p>
+               <hi>Query,</hi> Whether thoſe that are without may caſt of their Goods into the Treaſury, leſt the Treaſu<g ref="char:EOLhyphen"/>ry be polluted? 2 <hi>Cor.</hi> 8.4. <hi>Joſh.</hi> 6.17-19.</p>
+            <p>Nothing that is gotten by Fraud, Violence, or any wicked Means, may be caſt into the Churches Treaſury, <hi>Deut.</hi> 23.18. <hi>Micah</hi> 1.7. <hi>Eſa.</hi> 67.3.</p>
+            <p>
+               <hi>Query,</hi> Whether the uſe of the Churches Treaſure is peculiar to the Saints; and conſiſts in provi<g ref="char:EOLhyphen"/>ſion for holy Things, or holy Per<g ref="char:EOLhyphen"/>ſons? <hi>Deut.</hi> 14.2, 3, 21. <hi>Exod.</hi> 30.12 —16.</p>
+            <p>Holy Things, ſuch as Bread and Wine for the Lord's Supper, with Places and Inſtruments ſerviceable to holy Uſes, <hi>Exod.</hi> 25.2, 8. <hi>Mat.</hi> 27.7. <hi>per contrarium.</hi>
+            </p>
+            <p>Holy Perſons, as the Mainte<g ref="char:EOLhyphen"/>nance of Church Officers, and the poor Brethren either of that Parti<g ref="char:EOLhyphen"/>cular Viſible Church, or of any o<g ref="char:EOLhyphen"/>ther True Church, 1 <hi>Cor.</hi> 16.2, 3. 2 <hi>Cor.</hi> 8.7. 1 <hi>Cor.</hi> 9.6, 14. 1 <hi>Tim.</hi> 5.17, 18.</p>
+            <pb n="29" facs="tcp:104553:15"/>
+            <p>In the Neceſſity of the Church, if they that are without beſtow any thing upon the Saints, they may receive and uſe it with Thankſgiv<g ref="char:EOLhyphen"/>ing, 1 <hi>Cor.</hi> 10.25, 26.</p>
+            <p>If it be manifeſted by Evidence, that the Goods of them that are without offered to the Saints, be the Treaſures of Wickedneſs; the Saints are not to receive nor uſe them, to avoid offence, 1 <hi>Cor.</hi> 10.28, 29.</p>
+            <p>Women-Deacons or Widows are, of Sixty Years of Age, qualified ac<g ref="char:EOLhyphen"/>cording to the Apoſtle's Rule, 1 <hi>Tim.</hi> 5.9. relieving the Bodily Infirmities of the Saints with Cheer<g ref="char:EOLhyphen"/>fulneſs, <hi>Rom.</hi> 12.8. and 16.1.</p>
+            <p>Hitherto of the Churches Power of receiving in; now followeth the Churches Power of preſerving and keeping within.</p>
+            <p>The Power of preſerving within, is manifeſted by the heedful uſe of all the holy things of God by the whole Church jointly, and by every Member particularly, <hi>Mark</hi> 13.33-37.
+<pb n="30" facs="tcp:104553:16"/>
+               <hi>Heb.</hi> 10.24. 1 <hi>Theſ.</hi> 5.14. <hi>Mal.</hi> 18.15, 17. <hi>Acts</hi> 6.1.</p>
+            <p>The Paſtors chief Endeavour muſt be to make the Church Zea<g ref="char:EOLhyphen"/>lous, Holy and Obedient, <hi>Rom.</hi> 12.8. 1 <hi>Cor.</hi> 12.8. <hi>Apoc.</hi> 3.19. by proportion.</p>
+            <p>The Teachers chief Care muſt be to preſerve the Church from Igno<g ref="char:EOLhyphen"/>rance and Error, 1 <hi>Cor.</hi> 12.8. <hi>Rom.</hi> 12.7. 1 <hi>Cor.</hi> 3.10, 12. compared with <hi>Tit.</hi> 1.9.</p>
+            <p>The chief Office of the Gover<g ref="char:EOLhyphen"/>nours conſiſteth in preſerving Peace and Order in the Church, 1 <hi>Cor.</hi> 14.40. <hi>Rom.</hi> 12.8. 1 <hi>Tim.</hi> 5.17.</p>
+            <p>The D<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>acons chief Care muſt be that none of the Saints want Bodily Neceſſaries, and that due Provi<g ref="char:EOLhyphen"/>ſion be made for holy Things and Perſons, <hi>Rom.</hi> 12.8. <hi>John</hi> 13.29. and that with Simplicity of heart, <hi>John</hi> 12.6.</p>
+            <p>The Widows chief Office is to Viſit and Relieve the Widow, Fa<g ref="char:EOLhyphen"/>therleſs, Sick, Lame, Blind, Im<g ref="char:EOLhyphen"/>potent, Women with Child, and
+<pb n="31" facs="tcp:104553:16"/>Diſeaſed Members of the Church, 1 <hi>Tim.</hi> 5.9. <hi>Rom.</hi> 12.8. <hi>Mat.</hi> 15.35-40.</p>
+            <p>The Care of the Elderſhip muſt be to order, direct and moderate the publick Actions of the Church, 1 <hi>Cor.</hi> 14.40. 1 <hi>Tim.</hi> 5.17.</p>
+            <p>The Prophets chief Care muſt be to reſolve Doubts, Difficulties, and Dark Places, and to give true Fx<g ref="char:EOLhyphen"/>poſitions, Tranſlations, and Recon<g ref="char:EOLhyphen"/>ciliations of Scripture, 1 <hi>Cor.</hi> 14.29, 30. <hi>Luke</hi> 2.46, 47.</p>
+            <p>The Office of the Paſtor and Tea<g ref="char:EOLhyphen"/>cher in the Exerciſe of Prophecy, is to moderate and determine all Matters out of the Word, 1 <hi>Cor.</hi> 14.32. 1 <hi>Sam.</hi> 19.20.</p>
+            <p>The Care of the whole Church jointly, muſt be to keep her Power given her by Chriſt, and not to ſuffer any open known Sin, or any Tyranny or Uſurpation over them, <hi>Mat.</hi> 18.15-17. <hi>Mark</hi> 13.37. <hi>Col.</hi> 4.17. 3 <hi>John</hi> 9, 10. <hi>Rev.</hi> 2.2. <hi>Gal.</hi> 1.8, 9.</p>
+            <pb n="32" facs="tcp:104553:17"/>
+            <p>The chief Care of every Member as a Member, muſt be to watch over his Brother, <hi>Mark</hi> 13.37. <hi>Heb.</hi> 10.24. in bearing one another's Burthen, <hi>Gal.</hi> 6.2. 1 <hi>Cor.</hi> 10.24, 28, 29. admo<g ref="char:EOLhyphen"/>niſhing the Unruly, comforting the Feeble-minded, 1 <hi>Theſ.</hi> 5.14. ad<g ref="char:EOLhyphen"/>moniſhing the Excommunicate, 2 <hi>Theſ.</hi> 3.15. reſtoring them that are Fallen, <hi>Gal.</hi> 6.1.</p>
+            <p>Here ſpecial Care muſt be had of Admoniſhing, <hi>Mat.</hi> 18.15-17.</p>
+            <p>Admonition muſt be adminiſtred with Prayer and in Love, 1 <hi>Tim.</hi> 4.5. <hi>Gal.</hi> 6.1. <hi>Lev.</hi> 19.17. 1 <hi>Tim.</hi> 1.5. <hi>Rom.</hi> 13.8.</p>
+            <p>Prayer is needful that it may pleaſe God to give his Bleſſing to the Admonition adminiſtred, <hi>Mat.</hi> 7.7, 8. <hi>Jam.</hi> 1.5. and 4.2, 3.</p>
+            <p>Love muſt be manifeſted to the Offender that he may be the better won, <hi>Eph.</hi> 4.2. <hi>Col.</hi> 3.14. <hi>Lev.</hi> 19.17. 1 <hi>Pet.</hi> 4.8.</p>
+            <p>Admonition is either private or publick, <hi>Mat.</hi> 18.15, 17.</p>
+            <pb n="33" facs="tcp:104553:17"/>
+            <p>Private Admonition is either So<g ref="char:EOLhyphen"/>litary, or before Witneſs, <hi>ibid.</hi>
+            </p>
+            <p>Private Admonition that is ſoli<g ref="char:EOLhyphen"/>tary, is performed by one particu<g ref="char:EOLhyphen"/>lar Brother offended, to another Brother offending, and that in ſe<g ref="char:EOLhyphen"/>cret, <hi>Mat.</hi> 18.15.</p>
+            <p>The Admoniſher muſt not tell the Fault of the Offender to ano<g ref="char:EOLhyphen"/>ther, but himſelf muſt admoniſh the Offender, <hi>Pſal.</hi> 15.3. 1 <hi>Pet.</hi> 4.8. <hi>Prov.</hi> 25.9.</p>
+            <p>If the Offender repent upon Ad<g ref="char:EOLhyphen"/>monition, the Fault muſt be cover<g ref="char:EOLhyphen"/>ed, <hi>Prov.</hi> 10.12. if not, the Ad<g ref="char:EOLhyphen"/>moniſher muſt proceed to the ſe<g ref="char:EOLhyphen"/>cond degree of Admonition; <hi>viz.</hi> to admoniſh the Offender before Witneſs, <hi>Mat.</hi> 18.6.</p>
+            <p>The fitteſt Witneſſes muſt be choſen, 1 <hi>Kings</hi> 21.10, 13. <hi>Mat.</hi> 26.59-61. and 28.12-15. The ſitteſt Witneſſes for the moſt part are the Elders, who for their Wiſ<g ref="char:EOLhyphen"/>dom and Authority can beſt ſway with the Delinquent.</p>
+            <p>If the Offender repent upon Ad<g ref="char:EOLhyphen"/>monition
+<pb n="34" facs="tcp:104553:18"/>before Witneſs, the Fault muſt yet be covered alſo, <hi>Prov.</hi> 10.12. 1 <hi>Pet.</hi> 4.8. <hi>Jam.</hi> 5.20.</p>
+            <p>If the Offender admoniſhed be<g ref="char:EOLhyphen"/>fore Witneſs deny the Fact, then Proteſtation or an Oath of God muſt end the Matter, <hi>Exod.</hi> 22.11.</p>
+            <p>Though the Admoniſher know the Fact to be ſo, and the Offender deny the Fact before Witneſs, yet the Admoniſher is not to forſake the Offender's Communion, <hi>John</hi> 5.31. and 13.26. notwithſtand<g ref="char:EOLhyphen"/>ing he muſt ſtill ſeek to bring him to Repentance, <hi>Levit.</hi> 19.17.</p>
+            <p>If the Offender acknowledge the Fact, and repent not, the Admo<g ref="char:EOLhyphen"/>niſher and Witneſſes muſt bring the Matter to the Church, <hi>Mat.</hi> 18.17.</p>
+            <p>In bringing the Matter to the Church, if the Elders be not al<g ref="char:EOLhyphen"/>ready Intereſſed in the Cauſe, it is meet to uſe the advice and help of the Elderſhip, who are fitteſt to deal in all publick Buſineſſes, 1 <hi>Cor.</hi> 14.33, 40. 1 <hi>Tim.</hi> 5.17.</p>
+            <pb n="35" facs="tcp:104553:18"/>
+            <p>The Matter being before the Church, the Offender is to be dealt with by all poſſible Means, that he may come to Repentance, as by Admonition, by Threat, by In<g ref="char:EOLhyphen"/>treaty, by Prayer for him, <hi>&amp;c. Gal.</hi> 6.1. 2 <hi>Cor.</hi> 2.6.</p>
+            <p>If the Offender repent upon the Churches Admonition, he is ſtill to be continued, and accounted a Bro<g ref="char:EOLhyphen"/>ther, 2 <hi>Cor.</hi> 2.6. <hi>Mat.</hi> 18.17.</p>
+            <p>Thus the Church, and all the Members thereof, ſhall be preſer<g ref="char:EOLhyphen"/>ved and kept pure within, and their Communion ſhall be holy, <hi>Lev.</hi> 19.17. 1 <hi>Tim.</hi> 5.22. 1 <hi>Cor.</hi> 5.20. and 5.6. and ſo ſhall in<g ref="char:EOLhyphen"/>creaſe with the encreaſing of God, 1 <hi>Cor.</hi> 11.17. 2 <hi>Pet.</hi> 3.18.</p>
+            <p>All the degrees of Admonition muſt be adminiſtred upon the Of<g ref="char:EOLhyphen"/>fender before the Church have any Communion with him, <hi>Mat.</hi> 18.15-17. 1 <hi>Cor.</hi> 11.17. 1 <hi>Tim.</hi> 5.22. <hi>Levit.</hi> 19.18. <hi>Mat.</hi> 22.29.</p>
+            <p>If a Man ſee his B<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>other ſin, and admoniſh him not, but ſuffer his
+<pb n="36" facs="tcp:104553:19"/>Sin unreproved, he is defiled there<g ref="char:EOLhyphen"/>with, <hi>Lev.</hi> 19.17. <hi>Mat.</hi> 18.15. and 22.33. 1 <hi>Tim.</hi> 5.22.</p>
+            <p>In ſolitary Admonition, if the Admoniſher ſtay in the firſt degree of Admonition, the Offender not repenting, he is defiled with the Sin.</p>
+            <p>In Admonition before Witneſs, if the Admoniſhers ceaſe and ſtay in the ſecond degree of Admonition, the Offender not repenting, they are defiled with the Sin.</p>
+            <p>In Admonition before the Church, if the Church bear with the Party offending, and bring him not to re<g ref="char:EOLhyphen"/>pent, but leave him in Sin and Im<g ref="char:EOLhyphen"/>penitency, and yet hold him ſtill in Communion, then the whole Church is defiled; and ſo that is verified, a little Leaven leaveneth the whole lump, 1 <hi>Cor.</hi> 5.6. and 11.17. <hi>Mat.</hi> 13.33.</p>
+            <p>If a Sin be publickly known in a Church, or if more Sins be openly known and ſuffered, the whole Church is defiled and leavened. <hi>Ibid.</hi>
+            </p>
+            <pb n="37" facs="tcp:104553:19"/>
+            <p>No Communion can be had with, nor no joining can be to, a Church thus leavened, without manifeſt conſenting to Sin, <hi>ibid.</hi>
+            </p>
+            <p>Therefore if the Church will not Reform open known Corruptions after due proceeding, Separation muſt be made from her till Refor<g ref="char:EOLhyphen"/>mation come.</p>
+            <p>Therefore Separation may be made from true Churches for In<g ref="char:EOLhyphen"/>corrigible Corruptions; and to ſe<g ref="char:EOLhyphen"/>parate from a Defiled Church that is Incorrigible, is not to forſake the Communion of Holy Things, but the Pollution and Prophanation of Holy Things.</p>
+            <p>Thus much for the ſecond part of the Churches Power of preſerving and keeping within.</p>
+            <p>The Churches Power of caſting out followeth, which is twofold.</p>
+            <p>
+               <hi>Firſt</hi> of Officers out of Office, <hi>Acts</hi> 14.23. compared with <hi>Col.</hi> 5.17. <hi>Rev.</hi> 2.2. <hi>Gal.</hi> 1.8, 9.</p>
+            <p>
+               <hi>Second</hi> of Members out of Com<g ref="char:EOLhyphen"/>munion, <hi>Mat.</hi> 18.17. 1 <hi>Cor.</hi> 5.4,
+<pb n="38" facs="tcp:104553:20"/>5. 2 <hi>Theſ.</hi> 3.6, 14. 1 <hi>Tim.</hi> 1.20.</p>
+            <p>The Cauſe of caſting Officers out of Office, are Apoſtacy or Diſ<g ref="char:EOLhyphen"/>ability, <hi>Ezek.</hi> 44.10. <hi>Numb.</hi> 8.23-26.</p>
+            <p>Apoſtacy is when the Officers ſhall fall to open Idolatry, Atheiſm, Hereſie, or other Sins againſt the firſt and ſecond Table of the like Nature, <hi>Ezek.</hi> 44.10. and by pro<g ref="char:EOLhyphen"/>portion drawn from 2 <hi>King.</hi> 23.9. 1 <hi>Tim.</hi> 3.2. <hi>Lev.</hi> 22.1-5. and 21.16-24. <hi>Ezra</hi> 2.61, 62.</p>
+            <p>
+               <hi>Query,</hi> Whether the Officer up<g ref="char:EOLhyphen"/>on Repentance, after Apoſtacy, or Sin equivalent thereto, may be re<g ref="char:EOLhyphen"/>tained as a Member of the Church, but not as an Officer? <hi>Ezek.</hi> 44.13, 14. <hi>Mat.</hi> 26.69-75. compared with <hi>John</hi> 21.15-18. <hi>Acts</hi> 15.38.</p>
+            <p>Diſability is either of Age, or Sickneſs, or Maiming, <hi>&amp;c.</hi>
+            </p>
+            <p>Diſability of Age is when the Of<g ref="char:EOLhyphen"/>ficer can no longer, by reaſon of old Age, diſcharge the Works of his Office, then he may retain his Dignity, and ought to be honour<g ref="char:EOLhyphen"/>ed
+<pb n="39" facs="tcp:104553:20"/>of all, <hi>Numb.</hi> 8.23-26. <hi>Phi<g ref="char:EOLhyphen"/>lemon</hi> 9.</p>
+            <p>Diſability by Sickneſs, as Frenſie, Madneſs, Malancholy, or by Maiming as Loſs of the Tongue in the Paſtor or Teacher, <hi>&amp;c.</hi> or by any other Infirmity, diſabling him to the Actions of his Office, <hi>Lev.</hi> 16.24. compared with 1 <hi>Tim.</hi> 3.2. <hi>Tit.</hi> 1.6, 9.</p>
+            <p>
+               <hi>Query,</hi> whether an Officer may refuſe an Office impoſed upon him by a lawful Calling? <hi>Exod.</hi> 4.14. <hi>Jer.</hi> 1.6, 7, 17.</p>
+            <p>
+               <hi>Query,</hi> Whether the Church may ſuffer her Officer to be tran<g ref="char:EOLhyphen"/>ſlated from her ſelf to other Churches upon any good Ground, <hi>Acts</hi> 20.28. 1 <hi>Pet.</hi> 5.2. <hi>Acts</hi> 13.4. yea though it be granted that ſhe have Members as fit for Offi<g ref="char:EOLhyphen"/>ces as her Officers are in preſent: Yea though the Life of the Officer be endangered, <hi>Acts</hi> 9.25. <hi>Mat.</hi> 10.23. 1 <hi>King.</hi> 18.4.</p>
+            <p>The Cauſe of caſting Members out of Communion is only one: <hi>Viz.</hi>
+               <pb n="40" facs="tcp:104553:21"/>Sin obſtinately ſtood in without Repentance and Confeſſion after due Conviction, <hi>Mat.</hi> 18.17. <hi>Job</hi> 31.33. <hi>Prov.</hi> 28.13.</p>
+            <p>Due Conviction is the Diſcove<g ref="char:EOLhyphen"/>ry of the Sin by manifeſt Evidence, <hi>Job</hi> 19.4. and 32.12, 13. and 39.37.</p>
+            <p>Manifeſt Evidence is either to the Fact, or Sinfulneſs of the Fact.</p>
+            <p>The Fact is evident either by Confeſſion of the Party that com<g ref="char:EOLhyphen"/>mitted the Fact, or by ſufficient Witneſs, <hi>Mat.</hi> 26.65. <hi>Deut.</hi> 19.15. <hi>John</hi> 5.31.</p>
+            <p>
+               <hi>Query,</hi> Whether the Teſtimony of them that are without is Suf<g ref="char:EOLhyphen"/>ficient or no?</p>
+            <p>The Sinfulneſs of the Fact is Evi<g ref="char:EOLhyphen"/>dent either by direct Scripture, or by neceſſary Conſequence from the Scripture, <hi>Mat.</hi> 22.31, 32. and 4.4.</p>
+            <p>Due Conviction is perceived two Ways; Firſt, By the Delinquents Shifting, Cavils, Excurſions, Tergiverſations, <hi>&amp;c.</hi> 1 <hi>Tim.</hi> 1.6. <hi>Tit.</hi> 3.11. Secondly, By the Con<g ref="char:EOLhyphen"/>ſcience of them that have Power
+<pb n="41" facs="tcp:104553:21"/>to cenſure the Fact, <hi>Pſal.</hi> 36.1. <hi>Prov.</hi> 27.19. <hi>Tit.</hi> 3.10. 1 <hi>Cor.</hi> 2.15. and 12.10.</p>
+            <p>Obſtinacy in Sin is the continu<g ref="char:EOLhyphen"/>ance in refuſing to confeſs and for<g ref="char:EOLhyphen"/>ſake the Crime, <hi>Prov.</hi> 28.13. <hi>Mat.</hi> 18.17. <hi>Joſh.</hi> 7.1, 9.</p>
+            <p>If the Matter be not Evident, but Doubtful and Controverſal, Communion ſtill muſt be preſer<g ref="char:EOLhyphen"/>ved peaceably, notwithſtanding Diverſity of Judgment, till the Truth be diſcovered, <hi>Phil.</hi> 3.15, 16. 1 <hi>Cor.</hi> 13.49.7.9.</p>
+            <p>Perſons that differ in Judgment are either Strong or Weak, <hi>Rom.</hi> 15.1.</p>
+            <p>The Strong muſt not maintain Controverſies with the Weak, nor Deſpiſe them, but bear their In<g ref="char:EOLhyphen"/>firmity and Burden, <hi>Rom.</hi> 15.1. and 14.1, 3. <hi>Gal.</hi> 6.2. 1 <hi>Cor.</hi> 13.5, 7. and 9.22. and 10.23, 34.</p>
+            <p>The Weak muſt not Cenſure or Judge the Strong as Delinquents, but meekly deſire Inſtruction and Satisfaction, <hi>Rom.</hi> 14.3. <hi>Mat.</hi> 7.1-3.</p>
+            <pb n="42" facs="tcp:104553:22"/>
+            <p>Thus muſt Men walk in Diverſi<g ref="char:EOLhyphen"/>ty of Opinion, during which time, all Men muſt carefully ſearch out the Truth, and labour for Infor<g ref="char:EOLhyphen"/>mation, 1 <hi>Cor.</hi> 1.10. 2 <hi>Pet.</hi> 3.18. <hi>Phil.</hi> 3.15. <hi>Jam.</hi> 1.5.</p>
+            <p>The Power given the Church for caſting out obſtinate convicted Of<g ref="char:EOLhyphen"/>fenders, is the Power of Excommu<g ref="char:EOLhyphen"/>nication, 2 <hi>Cor.</hi> 18.3, 6. and 1.5.4.5. 1 <hi>Tim.</hi> 1.20. <hi>Gal.</hi> 5.12. 2 <hi>Theſſ.</hi> 3.6, 14. <hi>Mat.</hi> 18.17.</p>
+            <p>
+               <hi>Query,</hi> Whether delivering to Satan be not, or does not contain ſome bodily Puniſhment to be in<g ref="char:EOLhyphen"/>flicted upon the Offender? See <hi>Acts</hi> 5.5, 10. 1 <hi>Cor.</hi> 12.10.</p>
+            <p>Excommunication is the depriving of the Offender of the Viſible Com<g ref="char:EOLhyphen"/>munion of Saints, and the Benefit of the Holy Things of God given to the Church, 1 <hi>Cor.</hi> 5.4, 5, 11, 13. 2 <hi>Theſſ.</hi> 3.6, 14. <hi>Mat.</hi> 18.17.</p>
+            <p>
+               <hi>Query,</hi> Whether ſeparating, withdrawing, turning away from falſe Teachers and wicked Livers,
+<pb n="43" facs="tcp:104553:22"/>be the ſame with Excommunicati<g ref="char:EOLhyphen"/>on? 2 <hi>Theſ.</hi> 3.6. 1 <hi>Tim.</hi> 5.6. and 2.3, 5. <hi>Mat.</hi> 18.17. 1 <hi>Cor.</hi> 5.4, 5.</p>
+            <p>Excommunication duly admini<g ref="char:EOLhyphen"/>ſtred is ratified and confirmed in Heaven, <hi>Mat.</hi> 18.18. <hi>John</hi> 20.23.</p>
+            <p>Therefore the Party Excommuni<g ref="char:EOLhyphen"/>cate is in the Hands of Satan, and out of the Lord's Protection and Bleſſing, being deprived of all the publick Means of Salvation, <hi>Mat.</hi> 18.17. <hi>Cor.</hi> 5.5. <hi>Eſa.</hi> 4.5, 6.</p>
+            <p>In Excommunication conſider two Things: Firſt, The decreeing of it, which muſt be done by the whole Church, 1 <hi>Cor.</hi> 5.4. where<g ref="char:EOLhyphen"/>in the Church muſt proceed as in approving her Officers. Secondly, The pronouncing of Excommuni<g ref="char:EOLhyphen"/>cation, which muſt be performed by the fitteſt Perſon deputed thereto by the Church, 1 <hi>Cor.</hi> 14.40.</p>
+            <p>The End of Excommuication is not the Deſtruction of the Offender, but the Mortification of his Sin, and the Salvation of his Soul, 1 <hi>Cor.</hi>
+               <pb n="44" facs="tcp:104553:23"/>5.5. 2 <hi>Theſ.</hi> 3.14, 15. 1. <hi>Tim.</hi> 1.23.</p>
+            <p>
+               <hi>Query,</hi> Whether the Party Ex<g ref="char:EOLhyphen"/>communicated is to be counted as an Enemy, or to be admoniſhed as a Brother? 2 <hi>Theſſ.</hi> 5.15.</p>
+            <p>The Members of the Church are to avoid Religious and Civil Communion with him that is Ex<g ref="char:EOLhyphen"/>communicated, <hi>Mat.</hi> 18.17. 1 <hi>Cor.</hi> 5.11. except that Subjects, Ser<g ref="char:EOLhyphen"/>vants, Children, Parents, Wife or Husbands, <hi>&amp;c.</hi> that are bound to him, may perform Civil and Natural Offices to him, 1 <hi>Cor.</hi> 7.5, 12, 13. and by Proportion.</p>
+            <p>The Party Excomunicated upon Repentance is to be admitted again into the Communion of the Viſible Church, 2 <hi>Cor.</hi> 2.6-8. yet ſo as that the Church always have an eſpecial Eye to him, as being a ſuſpicious Perſon that durſt de<g ref="char:EOLhyphen"/>ſpiſe the Church, <hi>Mat.</hi> 18.17. <hi>Ezek.</hi> 44.10. 2 <hi>Pet.</hi> 2.22. <hi>Heb.</hi> 10.26. by Proportion.</p>
+            <pb n="45" facs="tcp:104553:23"/>
+            <p>
+               <hi>Query,</hi> Whether an Officer Ex<g ref="char:EOLhyphen"/>communicated upon Repentance may be again admitted into Office? And whether he muſt have a new Vocation by Election, Approbati<g ref="char:EOLhyphen"/>on, Ordination?</p>
+            <p>The Viſible Church walking in this Holy Order hath in it the Pre<g ref="char:EOLhyphen"/>ſence and Protection of Chriſt, <hi>Eſa.</hi> 4.5, 6. <hi>Mat.</hi> 28.20. and 18.20.</p>
+            <p>To ſuch a Viſible Church muſt all ſorts of Perſons reſort that deſire to be ſaved, <hi>Acts</hi> 4.12. <hi>Mat.</hi> 7.13, 14. <hi>John</hi> 15.6.</p>
+            <p>True Viſible Churches are of two ſorts: Firſt, Pure, where no o<g ref="char:EOLhyphen"/>pen known Sin is ſuffered, <hi>Rev.</hi> 2.7-13. and 3.8-11. Secondly, Cor<g ref="char:EOLhyphen"/>rupt, wherein ſome one or more open known Sin is tolerated, <hi>Rev.</hi> 3.1, 6. 1 <hi>Cor.</hi> 11.17, 21, 22.</p>
+            <p>True Viſible Churches are ſo far good as they agree to the Pat<g ref="char:EOLhyphen"/>tern of the Word, <hi>Heb.</hi> 8.5. <hi>Rev. chap.</hi> 2, and 3.1 <hi>Cor.</hi> 11.2, 17, 22.</p>
+            <p>Every true Viſible Church hath
+<pb n="46" facs="tcp:104553:24"/>Title to whole Chriſt and all the Holy Things of God. <hi>Eſa.</hi> 9.6, 7. <hi>Cant.</hi> 2.16. <hi>Eph.</hi> 1.22, 23.</p>
+            <p>Any one true Viſible Church is of equal Power with any other Viſible Church, <hi>Apoc. cap.</hi> 2. and 3. 1 <hi>Cor.</hi> 5. and hath Power to reform all Abuſes within it ſelf, 1 <hi>Cor.</hi> 11.2, 17. which Power is Spiritual, as is Chriſt's Kingdom, not Worldly, Bodily, nor Carnal, <hi>John</hi> 18.36. 2 <hi>Cor.</hi> 10.3, 5.</p>
+            <p>The erecting of Viſible Churches appertaineth to Princes and private Perſons.</p>
+            <p>Princes muſt erect them in their Dominions and command all their Subjects to enter into them, being firſt prepared and fitted thereto. 2 <hi>Chron.</hi> 29. and 34. and 17.</p>
+            <p>Private Perſons ſeparating from all Sin, and joining together to o<g ref="char:EOLhyphen"/>bey Chriſt their King, Prieſt and Prophet, as they are bound, are a true Viſible Church, and have a Charter given them by Chriſt thereto, being but two or three,
+<pb n="47" facs="tcp:104553:24"/>
+               <hi>Mat.</hi> 18.20. <hi>Acts</hi> 14.19, 20. <hi>Heb.</hi> 11.38. and further power than to reform themſelves they have none.</p>
+            <p>Every Man is bound in Conſci<g ref="char:EOLhyphen"/>ence to be a Member of ſome Viſible Church eſtabliſhed in this true Order, <hi>Mat.</hi> 7.13. <hi>Rev.</hi> 18.4.</p>
+            <p>Becauſe every Man is bound to obey Chriſt in his Kingdom and ſpiritual Regiment, and no other, <hi>Luke</hi> 19.14, 27. and the true Viſi<g ref="char:EOLhyphen"/>ble Church is Chriſt's Kingdom and Houſe, <hi>Mark</hi> 13.34. <hi>Luke</hi> 19.14, 27. <hi>Acts</hi> 1.3. <hi>Heb.</hi> 12, 28. and 3.6.</p>
+            <p>Therefore they that are not Mem<g ref="char:EOLhyphen"/>bers of this Viſible Church, are no Subjects of Chriſt's Kingdom, <hi>Luke</hi> 19.17. 1 <hi>Cor.</hi> 5.12.</p>
+            <p>This true Viſible Church is call'd Chriſt, 1 <hi>Cor.</hi> 12.12.</p>
+            <p>Thus much concerning the true Church: The falſe Church of An<g ref="char:EOLhyphen"/>tichriſt followeth to be conſidered.</p>
+            <p>Whatſoever thing is contrary to this Order of the Viſible Church is Antichriſtian, by Notation of the
+<pb n="48" facs="tcp:104553:25" rendition="simple:additions"/>Word compared with 1 <hi>Cor.</hi> 12.12.</p>
+            <p>Whoſoever taketh upon him to erect new Forms of Viſi<g ref="char:EOLhyphen"/>ble Churches, and to appoint new Officers, Laws, Miniſtry, Worſhip, or Communion in the Church, is Antichriſt, 1 <hi>John</hi> 4.3. 2 <hi>Theſ.</hi> 2.4. <hi>Rev.</hi> 13.16, 17.</p>
+            <p>Whoſoever yieldeth or ſubmit<g ref="char:EOLhyphen"/>teth to any other Conſtitution, Laws, Officers, Miniſtry or Worſhip, than that of Chriſt's Appointment, is the Subject, Servant of Anti<g ref="char:EOLhyphen"/>chriſt, by neceſſary Conſequence from the former, and <hi>Rom.</hi> 6.16.</p>
+            <p>A Man cannot be both the Ser<g ref="char:EOLhyphen"/>vant of Chriſt and of Antichriſt, <hi>Mat.</hi> 6.24.</p>
+            <trailer>FINIS</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
